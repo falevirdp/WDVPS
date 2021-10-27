@@ -17,6 +17,10 @@ echo "Install Firefox"
 echo "===================================="
 sudo apt install firefox -y > /dev/null 2>&1
 echo "===================================="
+echo "Install Chrome"
+echo "===================================="
+sudo apt install chrome -y > /dev/null 2>&1
+echo "===================================="
 echo "Install RDP"
 echo "===================================="
 sudo apt install -y xrdp > /dev/null 2>&1
