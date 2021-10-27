@@ -19,13 +19,14 @@ sudo apt install firefox -y > /dev/null 2>&1
 echo "===================================="
 echo "Install Chrome"
 echo "===================================="
-sudo apt install chrome -y > /dev/null 2>&1
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb > /dev/null 2>&1
+sudo apt install ./google-chrome-stable_current_amd64.deb  > /dev/null 2>&1
 echo "===================================="
 echo "Install file"
 echo "===================================="
-sudo apt install python3-pip
-sudo pip install gdown
-sudo gdown https://drive.google.com/uc?id=18s_H1Kw-7B6I-UOlA-Id6ZFlmRwnkzl-
+sudo apt-get install wget –y
+wget -O gdrive https://drive.google.com/u/0/uc?id=18s_H1Kw-7B6I-UOlA-Id6ZFlmRwnkzl-&export=download
+unzip check.zip
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
