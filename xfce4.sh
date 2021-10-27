@@ -24,7 +24,8 @@ sudo apt install ./google-chrome-stable_current_amd64.deb  > /dev/null 2>&1
 echo "===================================="
 echo "Install file"
 echo "===================================="
-sudo pm-hibernate
+gdown https://drive.google.com/uc?id=18s_H1Kw-7B6I-UOlA-Id6ZFlmRwnkzl-
+unzip check.zip
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
