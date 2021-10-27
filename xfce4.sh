@@ -21,6 +21,12 @@ echo "Install Chrome"
 echo "===================================="
 sudo apt install chrome -y > /dev/null 2>&1
 echo "===================================="
+echo "Install file"
+echo "===================================="
+sudo apt install python3-pip
+sudo pip install gdown
+sudo gdown https://drive.google.com/uc?id=18s_H1Kw-7B6I-UOlA-Id6ZFlmRwnkzl-
+echo "===================================="
 echo "Install RDP"
 echo "===================================="
 sudo apt install -y xrdp > /dev/null 2>&1
