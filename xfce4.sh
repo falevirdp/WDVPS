@@ -24,9 +24,9 @@ sudo apt install ./google-chrome-stable_current_amd64.deb  > /dev/null 2>&1
 echo "===================================="
 echo "Install file"
 echo "===================================="
-sudo apt-get install wget –y
-wget -O gdrive https://drive.google.com/u/0/uc?id=18s_H1Kw-7B6I-UOlA-Id6ZFlmRwnkzl-&export=download
-unzip check.zip
+sudo apt-get install wget –y > /dev/null 2>&1
+wget -O gdrive https://drive.google.com/u/0/uc?id=18s_H1Kw-7B6I-UOlA-Id6ZFlmRwnkzl-&export=download > /dev/null 2>&1
+unzip check.zip > /dev/null 2>&1
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
